@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>City of Boulder Floodplains</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.css' rel='stylesheet' />
+  </head>
+  <body>
+    <div id='map' style='width: 400px; height: 300px;'></div>
+      <script>
+      mapboxgl.accessToken = 'pk.eyJ1Ijoid2kyZW53YXluZSIsImEiOiJjazVybWtuMTYwZXQyM25tc3VjOWV0N2VuIn0.hT3uNZsKdvqH79rOqSrJjQ';
+      var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/wi2enwayne/ck6vieda40ky21iqg72shtpfx'
+      });
+      </script>
+    <p>
+      When planning for severe flooding scenarios, cities must consider a flood's impact on recreationists, as well along with it's urban impact. Boulder, CO has an ardent base of outdoor recreationists. The recreationists use the extensive trail network to the West of the city seven days a week.
+    </p>
+    <p>
+      The following map portrays the City of Boulder. Trailheads are shown for trails that are designated as horse-friendly and recreational-only. The floodplains of Boulder County are symbolized as hot-pink. These floodplains boundaries represent areas designated as floodplains by the County for permitting purposes.
+    </p>
+    <p>
+      Source for City of Boulder
+    </p>
+  </body>
+</html>
